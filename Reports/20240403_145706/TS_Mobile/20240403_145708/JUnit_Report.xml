@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Mobile" time="98.804" tests="1" failures="1" errors="0">
+   <testsuite name="TS_Mobile" tests="1" failures="1" errors="0" time="98.804" skipped="0" timestamp="03-04-2024T14:57:18" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708"/>
+         <property name="logFiles" value="C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\appium.log, C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\appium_error.log, C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-.png, keyes\keyes-.png, C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\1712131134764.png, C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\1712131135801.png"/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.2.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.1"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.10.122"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Verify_SuccessfulViewRecentsNews" time="98.585" classname="Test Cases/Mobile/Verify_SuccessfulViewRecentsNews" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Mobile/Verify_SuccessfulViewRecentsNews FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)&#xa;	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xa;	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)&#xa;	... 22 more&#xa;"/>
+         <system-out><![CDATA[03-04-2024T14:57:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Verify_SuccessfulViewRecentsNews: Test Cases/Mobile/Verify_SuccessfulViewRecentsNews FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more
+
+
+03-04-2024T14:57:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Mobile/Verify_SuccesfulLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Mobile/Verify_SuccesfulLogin' successfully
+
+03-04-2024T14:57:18 - [TEST_CASE][PASSED] - Test Cases/Mobile/Verify_SuccesfulLogin: Test Cases/Mobile/Verify_SuccesfulLogin
+
+03-04-2024T14:57:18 - [TEST_STEP][PASSED] - startApplication(apk, true): Started app at: 'C:\Users\1556\Documents\Tools\iglo_msa_v2.apk'
+
+03-04-2024T14:57:19 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+03-04-2024T14:57:24 - [MESSAGE][INFO] - PATH: C:/Users/1556/Documents/Katalon/Katalon_Studio_Engine_Windows_64-9.3.2/jre/bin/server;C:/Users/1556/Documents/Katalon/Katalon_Studio_Engine_Windows_64-9.3.2/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\1556\Downloads\Spring\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\1556\AppData\Local\Android\android-sdk\tools;C:\Users\1556\AppData\Local\Android\android-sdk\platform-tools;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\1556\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;C:\Users\1556\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\1556\AppData\Roaming\npm;C:\Users\1556\Documents\Katalon\Katalon_Studio_Engine_Windows_64-9.3.2;:C:\Users\1556\Documents\Katalon\Katalon_Studio_Engine_Windows_64-9.3.2\jre\bin
+
+03-04-2024T14:57:24 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\1556\.appium
+
+03-04-2024T14:57:24 - [MESSAGE][INFO] - appium outlog: C:\Users\1556\git\website_mobile_api\Reports\20240403_145706\TS_Mobile\20240403_145708\appium.log
+
+03-04-2024T14:57:24 - [MESSAGE][INFO] - appium errlog: C:\Users\1556\git\website_mobile_api\Reports\20240403_145706\TS_Mobile\20240403_145708\appium_error.log
+
+03-04-2024T14:57:30 - [MESSAGE][INFO] - Appium server started on port 51,869
+
+03-04-2024T14:57:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\1556\Documents\Tools\iglo_msa_v2.apk'
+
+03-04-2024T14:57:56 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+03-04-2024T14:57:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-04-2024T14:57:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+03-04-2024T14:58:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-04-2024T14:58:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+03-04-2024T14:58:02 - [TEST_STEP][PASSED] - tap(findTestObject("MobileAndroid/txt_username"), 0): Tapped on element 'Object Repository/MobileAndroid/txt_username'
+
+03-04-2024T14:58:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-04-2024T14:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileAndroid/txt_username'
+
+03-04-2024T14:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("MobileAndroid/txt_username"), username_mobile, 0): Text 'admin@indocyber.id' has been set to element 'Object Repository/MobileAndroid/txt_username'
+
+03-04-2024T14:58:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-04-2024T14:58:04 - [MESSAGE][PASSED] - Text 'admin@indocyber.id' has been set to element 'Object Repository/MobileAndroid/txt_username'
+
+03-04-2024T14:58:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+03-04-2024T14:58:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+03-04-2024T14:58:05 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+03-04-2024T14:58:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-04-2024T14:58:08 - [TEST_STEP][PASSED] - tap(findTestObject("MobileAndroid/txt_password"), 0): Tapped on element 'Object Repository/MobileAndroid/txt_password'
+
+03-04-2024T14:58:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-04-2024T14:58:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileAndroid/txt_password'
+
+03-04-2024T14:58:34 - [TEST_STEP][PASSED] - setText(findTestObject("MobileAndroid/txt_password"), password_mobile, 0): Text '123' has been set to element 'Object Repository/MobileAndroid/txt_password'
+
+03-04-2024T14:58:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-04-2024T14:58:34 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/MobileAndroid/txt_password'
+
+03-04-2024T14:58:34 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+03-04-2024T14:58:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+03-04-2024T14:58:36 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+03-04-2024T14:58:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-04-2024T14:58:39 - [TEST_STEP][PASSED] - tap(findTestObject("MobileAndroid/btn_login"), 0): Tapped on element 'Object Repository/MobileAndroid/btn_login'
+
+03-04-2024T14:58:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+03-04-2024T14:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MobileAndroid/btn_login'
+
+03-04-2024T14:58:39 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+03-04-2024T14:58:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-04-2024T14:58:42 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("", STOP_ON_FAILURE): Screenshot is taken
+
+03-04-2024T14:58:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+03-04-2024T14:58:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-.png]]
+
+03-04-2024T14:58:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MobileAndroid/title_home"), 3): Element 'Object Repository/MobileAndroid/title_home' is exist
+
+03-04-2024T14:58:46 - [MESSAGE][PASSED] - Element 'Object Repository/MobileAndroid/title_home' is exist
+
+03-04-2024T14:58:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Mobile/Verify_SuccesfulLogin' successfully
+
+03-04-2024T14:58:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-04-2024T14:58:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-04-2024T14:58:49 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("MobileAndroid/RecentNews/verify_recentNews"), 5): Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more
+)
+
+03-04-2024T14:58:55 - [MESSAGE][FAILED] - Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\1712131134764.png]]
+
+03-04-2024T14:58:56 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\1556\\git\\website_mobile_api\\Reports\\20240403_145706\\TS_Mobile\\20240403_145708\\1712131135801.png]]]]></system-out>
+         <system-err><![CDATA[03-04-2024T14:57:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Verify_SuccessfulViewRecentsNews: Test Cases/Mobile/Verify_SuccessfulViewRecentsNews FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-04-2024T14:57:18 - [TEST_SUITE][FAILED] - TS_Mobile: Test Cases/Mobile/Verify_SuccessfulViewRecentsNews FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[03-04-2024T14:57:18 - [TEST_SUITE][FAILED] - TS_Mobile: Test Cases/Mobile/Verify_SuccessfulViewRecentsNews FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to check for element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' exist
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1755)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at Verify_SuccessfulViewRecentsNews.run(Verify_SuccessfulViewRecentsNews:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1712131028632.run(TempTestSuite1712131028632.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/MobileAndroid/RecentNews/verify_recentNews' not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:38)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:48)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:19)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

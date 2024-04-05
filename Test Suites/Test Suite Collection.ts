@@ -19,10 +19,20 @@
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
-            <groupName>Web Desktop</groupName>
+            <groupName>Mobile</groupName>
             <profileName>default</profileName>
-            <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5554 (sdk_gphone64_x86_64 - Android 13)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5554</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TS_Mobile</testSuiteEntity>

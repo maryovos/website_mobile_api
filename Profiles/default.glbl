@@ -4,4 +4,44 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://34.128.87.8:8084/login'</initValue>
+      <name>url_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin@indocyber.com'</initValue>
+      <name>username_web</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin123'</initValue>
+      <name>password_web</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin@indocyber.id'</initValue>
+      <name>username_mobile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123'</initValue>
+      <name>password_mobile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\1556\\Documents\\Tools\\iglo_msa_v2.apk'</initValue>
+      <name>apk</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3'</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Katalon test event'</initValue>
+      <name>title_News</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
