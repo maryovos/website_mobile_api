@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Mobile,,,,19-04-2024 10:27:20,19-04-2024 10:28:28,1m - 7.864s,PASSED
+,,,,,,,
+Test Cases/Mobile/Verify_UnsuccesfulLogin,,,,19-04-2024 10:27:20,19-04-2024 10:28:28,1m - 7.628s,PASSED
+"startApplication(apk, true)",,,,19-04-2024 10:27:20,19-04-2024 10:27:57,36.647s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,19-04-2024 10:27:57,19-04-2024 10:28:00,3.085s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,,,19-04-2024 10:28:00,19-04-2024 10:28:03,2.407s,PASSED
+"tap(findTestObject(""MobileAndroid/txt_username""), 0)",,,,19-04-2024 10:28:03,19-04-2024 10:28:03,0.874s,PASSED
+"setText(findTestObject(""MobileAndroid/txt_username""), username_mobile, 0)",,,,19-04-2024 10:28:03,19-04-2024 10:28:05,1.885s,PASSED
+hideKeyboard(),,,,19-04-2024 10:28:05,19-04-2024 10:28:07,1.337s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,19-04-2024 10:28:07,19-04-2024 10:28:10,3.017s,PASSED
+"tap(findTestObject(""MobileAndroid/txt_password""), 0)",,,,19-04-2024 10:28:10,19-04-2024 10:28:18,7.860s,PASSED
+"setText(findTestObject(""MobileAndroid/txt_password""), password_mobile, 0)",,,,19-04-2024 10:28:18,19-04-2024 10:28:18,0.229s,PASSED
+hideKeyboard(),,,,19-04-2024 10:28:18,19-04-2024 10:28:20,2.060s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,19-04-2024 10:28:20,19-04-2024 10:28:23,3.012s,PASSED
+"tap(findTestObject(""MobileAndroid/btn_login""), 0)",,,,19-04-2024 10:28:23,19-04-2024 10:28:23,0.147s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,19-04-2024 10:28:23,19-04-2024 10:28:26,3.008s,PASSED
+"takeScreenshotAsCheckpoint("""", STOP_ON_FAILURE)",,,,19-04-2024 10:28:26,19-04-2024 10:28:28,1.512s,PASSED
+"verifyElementExist(findTestObject(""MobileAndroid/msg_loginFailed""), 3)",,,,19-04-2024 10:28:28,19-04-2024 10:28:28,0.124s,PASSED

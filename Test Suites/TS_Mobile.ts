@@ -12,10 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>ff270e8b-3d2b-4770-bf93-7cfd913ebfc9</testSuiteGuid>
    <testCaseLink>
-      <guid>b473ad64-4ca5-42ef-80a8-fa9f39660c67</guid>
+      <guid>39776780-e950-4a58-b040-38f387ab0e21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/Verify_SuccessfulViewRecentsNews</testCaseId>
+      <testCaseId>Test Cases/Mobile/Verify_UnsuccesfulLogin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
