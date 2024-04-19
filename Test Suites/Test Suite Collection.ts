@@ -4,7 +4,7 @@
    <name>Test Suite Collection</name>
    <tag></tag>
    <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>SEQUENTIAL</executionMode>
+   <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
@@ -12,7 +12,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TS_Web</testSuiteEntity>
@@ -25,11 +25,11 @@
             <runConfigurationData>
                <entry>
                   <key>deviceName</key>
-                  <value>emulator-5554 (sdk_gphone64_x86_64 - Android 13)</value>
+                  <value>Xiaomi 2201116TG (Android 13)</value>
                </entry>
                <entry>
                   <key>deviceId</key>
-                  <value>emulator-5554</value>
+                  <value>SK5DMBEUOBU4LNAU</value>
                </entry>
             </runConfigurationData>
             <runConfigurationId>Android</runConfigurationId>
