@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_logout</name>
+   <name>menu_masterCustomer</name>
    <tag></tag>
-   <elementGuidId>72888b86-c750-4a85-b465-80ce67b23db1</elementGuidId>
+   <elementGuidId>c3f6fe78-d323-462e-9dd0-f2a1f19525ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pageWrapper&quot;]/div[1]/div/div[3]/ul/li/button</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;mainnav&quot;]/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

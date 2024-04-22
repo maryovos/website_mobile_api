@@ -53,8 +53,6 @@ WebUI.check(findTestObject('Website/Master News/checkbox_active'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Website/btn_save'))
-
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshotAsCheckpoint('After Add News')

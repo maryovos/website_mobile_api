@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_WebLogin</name>
+   <name>TS_WebMasterNews</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4ae80adb-e89d-453d-af43-a31af082ca40</testSuiteGuid>
+   <testSuiteGuid>88269dec-4696-4c7a-a5bd-599e6bf25ece</testSuiteGuid>
    <testCaseLink>
-      <guid>7d8925bc-397d-4bf5-88f8-af42d814ceea</guid>
+      <guid>be78b6ad-7b1d-4dba-8140-fe0140fca6e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/Verify_SuccessfulLogin</testCaseId>
+      <testCaseId>Test Cases/Website/Verify_SuccessfullAddNews</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>574a7c28-22b0-43c5-91be-ef21fca47871</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Website/Verify_SuccessfullViewEditNews</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

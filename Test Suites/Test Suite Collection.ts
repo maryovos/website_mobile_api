@@ -15,7 +15,7 @@
             <runConfigurationId>Firefox (headless)</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_WebLogin</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TS_WebLoginLogout</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
