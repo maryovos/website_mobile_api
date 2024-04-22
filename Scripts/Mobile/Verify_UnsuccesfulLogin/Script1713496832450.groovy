@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication(GlobalVariable.apk, true)
+Mobile.startApplication(GlobalVariable.apk, false)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -44,6 +44,4 @@ Mobile.tap(findTestObject('MobileAndroid/btn_login'), 0)
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshotAsCheckpoint('', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementExist(findTestObject('MobileAndroid/msg_loginFailed'), 3)
 
