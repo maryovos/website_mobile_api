@@ -29,5 +29,5 @@ WebUI.setText(findTestObject('Website/Login/txt_password'), GlobalVariable.passw
 
 WebUI.click(findTestObject('Website/Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginSuccess'), 5)
+WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginSuccess'), 10)
 

@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Verify_SuccessfulLogin'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Website/Login/btn_logout'))
 
 WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginPage'), 5)
 
-WebUI.delay(3)
+WebUI.delay(10)
 

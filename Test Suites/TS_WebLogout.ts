@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_Web</name>
+   <name>TS_WebLogout</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,16 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>4ae80adb-e89d-453d-af43-a31af082ca40</testSuiteGuid>
+   <testSuiteGuid>88269dec-4696-4c7a-a5bd-599e6bf25ece</testSuiteGuid>
    <testCaseLink>
-      <guid>7d8925bc-397d-4bf5-88f8-af42d814ceea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/Verify_SuccessfulLogin</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d925b1af-5c40-420a-a8f5-00494f388686</guid>
+      <guid>2809b498-9ea6-4a2e-afa2-b2e5b30dd0a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Website/Verify_SuccessfulLogout</testCaseId>
