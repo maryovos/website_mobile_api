@@ -23,7 +23,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Website/Login/btn_logout'))
 
-WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginPage'), 0)
+WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginPage'), 5)
 
 WebUI.delay(3)
 
