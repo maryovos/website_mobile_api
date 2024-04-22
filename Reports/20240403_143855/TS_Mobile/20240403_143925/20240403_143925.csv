@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_Mobile,,,,03-04-2024 14:39:56,03-04-2024 14:39:57,0.897s,ERROR
-,,,,,,,
-Test Cases/Mobile/Verify_SuccessfulViewRecentsNews,,,,03-04-2024 14:39:56,03-04-2024 14:39:57,0.683s,ERROR
-"callTestCase(findTestCase(""Mobile/Verify_SuccesfulLogin""), [:], STOP_ON_FAILURE)",,,,03-04-2024 14:39:56,03-04-2024 14:39:57,0.360s,ERROR
