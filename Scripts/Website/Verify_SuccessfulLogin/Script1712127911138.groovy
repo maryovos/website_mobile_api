@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Website/Login/txt_username'), GlobalVariable.usern
 
 WebUI.setText(findTestObject('Website/Login/txt_password'), GlobalVariable.password_web)
 
-WebUI.click(findTestObject('Website/Login/btn_login'))
+not_run: WebUI.click(findTestObject('Website/Login/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginSuccess'), 10)
 
