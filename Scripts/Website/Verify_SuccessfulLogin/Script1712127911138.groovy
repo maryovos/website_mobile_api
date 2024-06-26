@@ -25,7 +25,7 @@ WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginPage'), 5)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshotAsCheckpoint('Success Login', FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshotAsCheckpoint('Before Login', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
