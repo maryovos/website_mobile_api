@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'failedadmin@indocyber.id'</initValue>
+      <initValue>'admin@indocyber.id'</initValue>
       <name>username_mobile</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
