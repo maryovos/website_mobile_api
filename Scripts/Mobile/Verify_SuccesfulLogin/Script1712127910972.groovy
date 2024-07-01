@@ -21,7 +21,11 @@ Mobile.startApplication(GlobalVariable.apk, false)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.waitForElementPresent(findTestObject('MobileAndroid/txt_username'), 20)
+
 Mobile.takeScreenshotAsCheckpoint('Before Login', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('MobileAndroid/txt_username'), 0)
 
