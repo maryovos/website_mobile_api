@@ -1,0 +1,10 @@
+[38;5;96m[Logcat][0m Logcat terminated with code 255, signal null
+[38;5;16m[AppiumDriver@7356][0m Had trouble ending session a686e12f-6a4a-4339-ad2f-9622502580dc: Error executing adbExec. Original error: 'Command 'C:\\Users\\1556\\AppData\\Local\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.56.101\:5555 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device '192.168.56.101:5555' not found
+[38;5;16m[AppiumDriver@7356][0m 
+uncaughtException: Error executing adbExec. Original error: 'Command 'C:\\Users\\1556\\AppData\\Local\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.56.101\:5555 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1'; Command output: adb.exe: device '192.168.56.101:5555' not found
+
+Error: Command 'C:\\Users\\1556\\AppData\\Local\\Android\\android-sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.56.101\:5555 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 1
+    at ChildProcess.<anonymous> (C:\Users\1556\.appium\node_modules\appium-uiautomator2-driver\node_modules\teen_process\lib\exec.js:128:19)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1091:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
