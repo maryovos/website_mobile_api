@@ -4,5 +4,6 @@
    <name>Verify_SuccessfulLogin</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>de83acdb-f983-49b8-a5a6-75ee4c70fdbc</testCaseGuid>
 </TestCaseEntity>

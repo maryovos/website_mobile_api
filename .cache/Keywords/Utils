@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "2F7777C0FEA977D107133A92CBC18D80",
+  "keywordClasses": [
+    {
+      "name": "Utils",
+      "keywordMethods": [
+        {
+          "name": "swipeDown",
+          "parameters": [
+            {
+              "name": "times",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
