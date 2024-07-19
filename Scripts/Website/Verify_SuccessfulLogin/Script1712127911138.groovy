@@ -23,15 +23,15 @@ WebUI.navigateToUrl(GlobalVariable.url_login)
 
 WebUI.verifyElementPresent(findTestObject('Website/Login/verify_loginPage'), 5)
 
+WebUI.setText(findTestObject('Website/Login/txt_username'), GlobalVariable.username_web)
+
+WebUI.setText(findTestObject('Website/Login/txt_password'), GlobalVariable.password_web)
+
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshotAsCheckpoint('Before Login', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Website/Login/txt_username'), GlobalVariable.username_web)
-
-WebUI.setText(findTestObject('Website/Login/txt_password'), GlobalVariable.password_web)
 
 WebUI.click(findTestObject('Website/Login/btn_login'))
 
